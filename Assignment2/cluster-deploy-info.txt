@@ -1,0 +1,40 @@
+Your accounts have already been installed in machines of room 101. Each can be regarded as a computation node of a ten-node parallel machine.
+
+Here is the related information:
+
+  node name: l040101-ws01.ua.pt up to l040101-ws10.ua.pt
+
+  login: sd#??   , where # stands for lab class (1 to 4) and ?? for group number (01 to 10)
+
+  password: qwerty ( you may change it)  .
+
+Presently, nodes l040101-ws04.ua.pt and l040101-ws10.ua.pt are not operacional (so they can not be used yet). All the others are available.
+
+You can connect to any operacional node from any point in the campus by using directly the command
+
+                   ssh sd#??@l040101-ws&&.ua.pt
+				   
+				   -> ssh sd306@l040101-ws01.ua.pt
+
+or from anywhere outside by the same command, but now through a vpn coonection.
+
+Please remember you must install the commands "sshpass" and xterm in your laptops to deploy and remotely run in the nodes of the parallel machine any application you may design.
+
+Remember also you should connect manually, at least once, to every node of the parallel machine before running any shell script of deployment.
+
+Port numbers assigned to each group when running the code of assignment 2 in the computer network of lab class 101:
+
+	10 specific port numbers are assigned to each group according to the formula that lists the first (the other nine follow in order)
+
+					  first port number for group y of lab class x = 22000 + 100 * x + 10 * (y - 1)   .
+					  
+												y (group) = 6
+												x (lab)   = 3
+												
+												-> 22000 + 100 * 3 + 10 * (6 - 1)
+												-> 22000 + 300 + 50
+												-> 22350 (first port)
+
+	Thus, for example, group 5 of lab class 2 has got the port numbers 22240 up to 22249.
+
+

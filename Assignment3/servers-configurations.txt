@@ -1,0 +1,39 @@
+	Host
+		
+		AssaultParty 1				sd306@l040101-ws01.ua.pt
+		
+		AssaultParty 2				sd306@l040101-ws02.ua.pt
+		
+		CollectionSite				sd306@l040101-ws03.ua.pt
+
+		ConcentrationSite			sd306@l040101-ws05.ua.pt
+		
+		InformationRepository		sd306@l040101-ws06.ua.pt
+		
+		Museum						sd306@l040101-ws07.ua.pt
+		
+		MasterThief					sd306@l040101-ws08.ua.pt
+		
+		OrdinaryThief				sd306@l040101-ws09.ua.pt
+		
+		Regestry					sd306@l040101-ws10.ua.pt
+		
+		RMIRegistry					sd306@l040101-ws10.ua.pt
+		
+	Ports
+	
+		AssaultParty 1				22350
+		
+		AssaultParty 2				22351
+		
+		CollectionSite				22352
+
+		ConcentrationSite			22353
+		
+		InformationRepository		22354
+		
+		Museum						22355
+		
+		Registry					22356
+		
+		RMIRegistry					22357

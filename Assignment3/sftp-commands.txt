@@ -1,0 +1,5 @@
+sftp sd306@l040101-ws06.ua.pt
+ls
+cd test/MuseumHeist/dirInformationRepos/
+get simulationlog.txt
+bye

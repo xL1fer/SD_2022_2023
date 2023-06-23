@@ -1,6 +1,6 @@
 # SD projects
 
-## Projects done under the course Distributed Systems at the University of Aveiro.
+## Projects done under the course Distributed Systems at the University of Aveiro
 
 All projects are done using Java programming language and consist in a concurrency problem where thiefs assault a museum. The active entities are two types of thiefs: Ordinary Thieves and Master Thief; and the they access a couple of passive entities when performing their actions: Assault Parties, Museum, Concentration Site and Collection Site
 
